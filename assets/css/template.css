@@ -1,0 +1,115 @@
+body {
+
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftmenu{
+    width: 200px;
+    background-color: #1f232a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+}
+.company_name {
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+
+}
+.container {
+    padding-left: 200px;
+}
+
+.top {
+    height: 50px;
+    background-color: #232830;
+    color: #fff;
+    font-size: 15px;
+}
+
+.top_right {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.top_right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuarea{
+    color: #fff;
+}
+
+.menuarea ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+.menuarea li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 30px;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menuarea li:hover {
+    background-color: #00ff;
+
+}
+.menuarea li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+}
+
+.menuarea li:nth-child(1){
+    background-image: url('../img/home.png');
+}
+
+.menuarea li:nth-child(2){
+    background-image: url('../img/key.png');
+}
+
+.area{
+    color: #000;
+    padding: 15px;
+}
+
+.tabitem {
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom:  2px solid #000;
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.activetab {
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+
+}
+
+.tabbody {
+    display: none;
+}
